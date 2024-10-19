@@ -1,0 +1,82 @@
+
+#container {
+    width: 1250px;
+}
+#content {
+    background-color: #9360a3;
+    width: 1250px;
+    float: left;
+}
+#header {
+    background-color: rgb(216, 140, 140);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#header img {
+    margin-right: 20px;
+}
+.bg-white {
+    background-color: rgb(245, 131, 131); /* Color naranja */
+}
+.bg-white .nav-link {
+    align-items: center;
+    color: black; /* Color del texto a negro */
+}
+.bg-white .nav-link:hover {
+    color:   #8d404a; /* Color al pasar el mouse, ajustable */
+}
+.nav-link {
+    padding: 15px 20px; /* Añadir un poco de relleno a los enlaces */
+}
+.nav-item {
+    margin-right: 30px; /* Espaciado entre los elementos */
+
+}
+a {
+    text-decoration: none;
+}
+.title-font {
+    font-family: Broadway;
+    color: rgb(230, 121, 121);
+}
+.title-font {
+    font-family: Broadway;
+    color: rgb(23, 23, 23);
+}
+a {
+    text-decoration: none;
+}
+.menu-title {
+    color: rgb(106, 221, 114);
+    font-weight: bold;
+}
+.header-title {
+    font-family: forte;
+    color: rgb(74, 100, 53);
+}
+.content-font {
+    font-family: Arial;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crea columnas responsivas */
+    gap: 135px; /* Espacio entre las tablas */
+    justify-content: center; /* Centra las columnas dentro del contenedor */
+    padding: 25px; /* Espaciado interno del contenedor */
+}
+.table-section {
+    margin: 10px; /* Espaciado adicional */
+}
+table {
+    width: 100%; /* La tabla ocupa el 100% del contenedor */
+    border-collapse: collapse; /* Combina bordes de celdas */
+}
+th, td {
+    padding: 5px; /* Espaciado interno en celdas */
+    border: 1px solid #6e4d2e; /* Bordes de celdas */
+    text-align: left; /* Alineación de texto */
+}
+#texto-bla{color: rgb(238, 175, 175);}
+
